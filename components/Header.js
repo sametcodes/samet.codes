@@ -69,12 +69,8 @@ const Header = ({ navBarTitle, fullWidth }) => {
             <a aria-label={BLOG.title}>
               <span className="header-logo">
                 samet.
-                <span className="anim-text-flow">
-                  <span>c</span>
-                  <span>o</span>
-                  <span>d</span>
-                  <span>e</span>
-                  <span>s</span>
+                <span className="colored">
+                  codes
                 </span>
               </span>
             </a>
@@ -87,7 +83,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
             )
             : (
               <p className="ml-2 font-medium text-day dark:text-night header-name">
-                {BLOG.title},{' '}
                 <span className="font-normal">{BLOG.description}</span>
               </p>
             )}
